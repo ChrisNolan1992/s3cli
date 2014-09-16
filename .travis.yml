@@ -9,5 +9,6 @@ install:
 
 script:
 - GOPATH=$PWD bin/test
+
 git:
   submodules: false
